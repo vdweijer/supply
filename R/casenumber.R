@@ -1,0 +1,1 @@
+casenumber=function(group){sapply(1:length(group),function(i){table(group[1:i][group==group[i]])[group[i]]})}

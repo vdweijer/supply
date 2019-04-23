@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1547190602252.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "775354874",
+    "id" : "5ECDAAE1",
+    "lastKnownWriteTime" : 1556016151,
+    "last_content_update" : 1556016151609,
+    "path" : "~/Documents/R/PACKAGES/supply/man/tabtable.Rd",
+    "project_path" : "man/tabtable.Rd",
+    "properties" : {
+        "cursorPosition" : "19,57",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}

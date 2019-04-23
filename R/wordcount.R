@@ -1,0 +1,1 @@
+wordcount=function(sentence){sapply(strsplit(sentence," +"),length)}

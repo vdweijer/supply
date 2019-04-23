@@ -1,0 +1,1 @@
+cd=function(dir){setwd(paste(getwd(),dir,sep="/"))}

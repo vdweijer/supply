@@ -1,0 +1,10 @@
+Package: supply
+Type: Package
+Title: All Kinds of Everything
+Version: 0.1.0
+Author: Joost van de Weijer
+Maintainer: Joost van de Weijer <vdweijer@ling.lu.se>
+Description: Collection of convenience functions for work and private use.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
