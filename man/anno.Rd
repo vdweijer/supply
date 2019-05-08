@@ -47,5 +47,6 @@ Joost van de Weijer
 \examples{
 anno("1;6") # returns 1.5
 anno(1.5) # returns "1;6"
+}
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

@@ -1,0 +1,1 @@
+restructure=function(v){structure(names(v),names=v)}

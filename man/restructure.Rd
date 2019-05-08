@@ -1,25 +1,20 @@
-\name{tabtable}
-\alias{tabtable}
+\name{restructure}
+\alias{restructure}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-Save a regression table (from lm or lmer) as a double-tab separated text.
+Restructure a named vector.
 }
 \description{
-The regression coefficients, standard errors, t/z values and p-values are
-separated by two tabs which yields an empty column when converted to a Word table.
+This function swaps vector elements with their names.
 }
 \usage{
-tabtable(model object, file name)
+restructure(x) # where x is a named vector
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{model object}{
-  A regression model.
+  \item{x}{
+%%     ~~Describe \code{x} here~~
 }
-  \item{model object}{
-  The name of the file. Defaults to "regressiontable.txt"
-}
-
 }
 \details{
 %%  ~~ If necessary, more details than the description above ~~
@@ -38,7 +33,7 @@ tabtable(model object, file name)
 Joost van de Weijer
 }
 \note{
-%%  ~~further notes~~
+Numerical values are converted to character.
 }
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
@@ -47,8 +42,9 @@ Joost van de Weijer
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-model.lm=lm(rnorm(10)~1)
-tabtable(model.lm) # saves the file "regressiontable.txt" in the current working directory.
+(x=structure(1:3,names=letters[1:3]))
+restructure(x)
+restructure(x)
+restructure(x)
+# etc.
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
