@@ -1,30 +1,26 @@
-\name{tabtable}
-\alias{tabtable}
+\name{permutations}
+\alias{permutations}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-Save a regression table (from lm or lmer) as a double-tab separated text.
+Create permutations of an input vector.
 }
 \description{
-The regression coefficients, standard errors, t/z values and p-values are
-separated by two tabs which yields an empty column when converted to a Word table.
+This command creates all possible unique orderings of the elements in the input vector.
 }
 \usage{
-tabtable(model object, file name)
+permutations(x)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{model object}{
-  A regression model.
+  \item{x}{
+A vector.
 }
-  \item{model object}{
-  The name of the file. Defaults to "regressiontable.txt"
-}
-
 }
 \details{
 %%  ~~ If necessary, more details than the description above ~~
 }
 \value{
+The function returns a data frame (!)
 %%  ~Describe the value returned
 %%  If it is a LIST, use
 %%  \item{comp1 }{Description of 'comp1'}
@@ -47,8 +43,9 @@ Joost van de Weijer
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-model.lm=lm(rnorm(10)~1)
-tabtable(model.lm) # saves the file "regressiontable.txt" in the current working directory.
+permutations(letters[3:5])
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
+\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
+\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
