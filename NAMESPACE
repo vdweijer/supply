@@ -1,1 +1,5 @@
 exportPattern("^[[:alpha:]]+")
+import(grDevices)
+import(utils)
+import(stats)
+import(graphics)
