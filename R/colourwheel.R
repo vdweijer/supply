@@ -1,3 +1,4 @@
+require(graphics)
 par(mar=c(1,1,1,1))
 col.wheel <- function(str, cex=0.75) {
 	cols <- colors()[grep(str, colors())]

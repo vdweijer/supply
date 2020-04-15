@@ -1,4 +1,5 @@
 # transparent colours
+require("grDevices")
 transparentgreen<-rgb(red=100,green=200,blue=50,alpha=50,maxColorValue=255)
 transparentpink<-rgb(red=255,green=105,blue=180,alpha=50,maxColorValue=255)
 transparentgrey<-rgb(red=120,green=120,blue=120,alpha=50,maxColorValue=255)
