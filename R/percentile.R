@@ -1,0 +1,1 @@
+percentile=function(v){sapply(v,function(x){(sum(v<x))/(length(v)-1)})}
