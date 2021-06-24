@@ -47,3 +47,6 @@ hemisphere=structure(c(rep("left",11),rep("mid",6),rep("right",11)),
 
 chinesegender=structure(c("M","F"),names=c("男","女"))
 
+M <- c("January","February","March","April","May","June","July","August","September","October","November","December")
+
+composers=

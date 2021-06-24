@@ -55,7 +55,8 @@ Joost van de Weijer
 ## The function is currently defined as
 function (x, sep = "/")
 {
-    return(as.numeric(unlist(strsplit(as.character(x), split = sep))[1])/as.numeric(unlist(strsplit(as.character(x),
+    return(as.numeric(unlist(strsplit(as.character(x), split = sep))[1])/
+    as.numeric(unlist(strsplit(as.character(x),
         split = sep))[2]))
   }
 }
