@@ -49,4 +49,13 @@ chinesegender=structure(c("M","F"),names=c("男","女"))
 
 M <- c("January","February","March","April","May","June","July","August","September","October","November","December")
 
-composers=
+currencies=structure(c("Australian dollar","Bulgarian lev","Brazilian real","Canadian dollar",
+                       "Swiss franc","Chinese yuan","Czech koruna","Danish krone","UK pound sterling",
+                       "Hong Kong dollar","Croatian kuna","Hungarian forint","Indonesian rupiah",
+                       "Israeli shekel","Indian rupee","Iceland krona","Japanese yen","Korean won (Republic)",
+                       "Mexican peso","Malaysian ringgit","Norwegian krone","New Zealand dollar","Philippine peso",
+                       "Polish zloty","Romanian leu","Russian rouble","Swedish krona","Singapore dollar",
+                       "Thai baht","Turkish lira","US dollar","South African rand"),
+                     names=c("AUD","BGN","BRL","CAD","CHF","CNY","CZK","DKK","GBP","HKD","HRK","HUF",
+                             "IDR","ILS","INR","ISK","JPY","KRW","MXN","MYR","NOK","NZD","PHP","PLN",
+                             "RON","RUB","SEK","SGD","THB","TRY","USD","ZAR"))
